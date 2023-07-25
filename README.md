@@ -31,11 +31,4 @@ A new Flutter project.
     final selectedmovie = movielist.firstWhere(
       (move) => move.id == movieId,
     );
-  ()  
-    ![Uploading Screenshot_1689935581.png…]
-  ()
-    ![Uploading Screenshot_1689769865.png…]()
-    ![Uploading Screenshot_1689935581.png…]()
-
-![Uploading Screenshot_1689935595.png…]()
-
+ 
