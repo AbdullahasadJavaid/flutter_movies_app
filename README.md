@@ -1,16 +1,27 @@
-# flutter_my_project
+# Flutter_movie_app
 
 A new Flutter project.
 
-## Getting Started
+## dependencies I used
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ page_transition: ^2.0.9
+  provider: ^6.0.5
+  animated_text_kit: ^4.2.2
+  carousel_slider: ^4.2.1
+  dots_indicator: ^3.0.0
+  sliding_up_panel: ^2.0.0+1
+## Pass through pushName arguments
+ onTap: () {
+          Navigator.pushNamed(
+            context,
+            DetialScreen.routeName,
+            arguments: id,
+          );
+        },
+  
+  ## Accepting data to new Screen
+     final String movieId =
+        ModalRoute.of(context)!.settings.arguments.toString();
+    final selectedmovie = movielist.firstWhere(
+      (move) => move.id == movieId,
+    );
