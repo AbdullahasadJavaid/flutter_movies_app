@@ -1,5 +1,3 @@
-![Screenshot_1689935645](https://github.com/AbdullahasadJavaid/flutter_movies_app/assets/103780909/ad1950f2-a6b8-4bc4-bb28-e5cd872eb887)
-![Uploading Screenshot_1689935595.png…]()
 # Flutter_movie_app
 
 A new Flutter project.
@@ -32,6 +30,12 @@ A new Flutter project.
         ModalRoute.of(context)!.settings.arguments.toString();
     final selectedmovie = movielist.firstWhere(
       (move) => move.id == movieId,
-    );![Uploading Screenshot_1689935581.png…]()
-![Uploading Screenshot_1689769865.png…]()
+    );
+  ()  
+    ![Uploading Screenshot_1689935581.png…]
+  ()
+    ![Uploading Screenshot_1689769865.png…]()
+    ![Uploading Screenshot_1689935581.png…]()
+
+![Uploading Screenshot_1689935595.png…]()
 
